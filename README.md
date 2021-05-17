@@ -4,6 +4,6 @@
 
 RC notes and exercise problems will be updated in advance, usually 12 hours before the RC class.
 
-pdf and markdown version will be updated on canvas after RC.
+RC slides and notes will be updated on canvas after RC.
 
 Enjoy it!
