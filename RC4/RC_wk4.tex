@@ -35,13 +35,16 @@
   \begin{block}{Recall}
     The non-inertial FoR is a frame of reference that is not in a linear motion with uniform velocity relative to an inertial frame of reference.
   \end{block}
+  \pause
   \textcolor{blue}{Basic Formula}
   $$
   \vec{a^{\prime}}=\vec{a}-\vec{a_{O}^{\prime}}-\frac{d \vec{\omega}}{d t} \times \vec{r^{\prime}}-2(\vec{\omega} \times \vec{v^{\prime}})-\vec{\omega} \times(\vec{\omega} \times \vec{r^{\prime}})
   $$
+  \pause
   $$
   m \vec{a^{\prime}}=\vec{F}-m \vec{a_{O}^{\prime}}-m \frac{d \vec{\omega}}{d t} \times \vec{r^{\prime}}-2 m(\vec{\omega} \times \vec{v^{\prime}})-m \vec{\omega} \times(\vec{\omega} \times \vec{r^{\prime}})
   $$
+  \pause
   How to derive the formula?
 \end{frame}
 
@@ -49,14 +52,17 @@
   \begin{block}{Recall}
     Newton's Second Law doesn't hold in non-inertial FoR. To describe the motion in non-inertial FoR, we need to add the forces of inertia (pseudo-forces) into "Newton's Second Law" in non-inertial FoR.
   \end{block}
+  \pause
   Add $\mathbf{F_{Unreal}}$:
   $$
   \mathbf{F'} = \mathbf{F_{Real}} + \mathbf{F_{Unreal}}
   $$
+  \pause
   to maintain the "Newton's Second Law" in non-inertial FoR:
   $$
   \mathbf{F'} = m \mathbf{a'}
   $$
+  \pause
   $$
   \mathbf{F_{Unreal}} = -m \vec{a_{O}^{\prime}}-m \frac{d \vec{\omega}}{d t} \times \vec{r^{\prime}}-2 m(\vec{\omega} \times \vec{v^{\prime}})-m \vec{\omega} \times(\vec{\omega} \times \vec{r^{\prime}})
   $$
@@ -71,10 +77,11 @@
 % \end{center}
 \label{fig:1}
 \end{figure}
+\pause
 Newton's Second Law in inertia FoR $S$: 
-$$\mathbf{F}=m\mathbf{a}$$
+$$\mathbf{F}=m\mathbf{a}$$\pause
 Acceleration in non-inertial FoR $S'$:
-$$\mathbf{a'} = \mathbf{a}+(-\mathbf{a_0})$$
+$$\mathbf{a'} = \mathbf{a}+(-\mathbf{a_0})$$\pause
 $$\Rightarrow \mathbf{F'}= m\mathbf{a'}=m\mathbf{a}+m(-\mathbf{a_0})=\mathbf{F}+m(-\mathbf{a_0})$$
 \end{frame}
 
@@ -86,13 +93,13 @@ $$\Rightarrow \mathbf{F'}= m\mathbf{a'}=m\mathbf{a}+m(-\mathbf{a_0})=\mathbf{F}+
   %   Figure 2: Centrifugal ``Force''.
   % \end{center}
   \label{fig:2}
-  \end{figure}
+  \end{figure}\pause
   Uniform circular motion in $S:$
   $$
   \mathbf{a}=-\omega^2\mathbf{r'},\quad \mathbf{F} = m\mathbf{a}=-m\omega^2\mathbf{r'}
-  $$
+  $$\pause
   In $S'$:
-  $$\mathbf{a'}=0,\quad \mathbf{F'}=m\mathbf{a'}=0$$
+  $$\mathbf{a'}=0,\quad \mathbf{F'}=m\mathbf{a'}=0$$\pause
   Thus, we need
   $$\mathbf{F_c}=m\omega^2\mathbf{r'}\quad\text{s.t.}\quad \mathbf{F'}=\mathbf{F}+\mathbf{F_c}=0$$
 \end{frame}
@@ -105,11 +112,11 @@ $$\Rightarrow \mathbf{F'}= m\mathbf{a'}=m\mathbf{a}+m(-\mathbf{a_0})=\mathbf{F}+
   % Figure 3: Coriolis ``Force''.
   % \end{center}
   \label{fig:3}
-  \end{figure}
+  \end{figure}\pause
   $m$ stays still in $S$:
-  $$\mathbf{F} = 0$$
+  $$\mathbf{F} = 0$$\pause
   $m$ moves in a uniform circular motion in $S'$:
-  $$\mathbf{a'}=-\omega^2\mathbf{r'},\quad \mathbf{F'}=m\mathbf{a'}=-m\omega^2\mathbf{r'}$$
+  $$\mathbf{a'}=-\omega^2\mathbf{r'},\quad \mathbf{F'}=m\mathbf{a'}=-m\omega^2\mathbf{r'}$$\pause
   Thus, we need (Don't forget the centrifugal force we added)
   \begin{align*}
   \mathbf{F_{Cor}}=-2m\omega^2\mathbf{r'}\quad\text{s.t.}\quad \mathbf{F'}=\mathbf{F}+\mathbf{F_c}+\mathbf{F_{Cor}} & =0+m\omega^2\mathbf{r'}+(-2m\omega^2\mathbf{r'})\\ &=m\mathbf{a'} 
@@ -118,8 +125,8 @@ $$\Rightarrow \mathbf{F'}= m\mathbf{a'}=m\mathbf{a}+m(-\mathbf{a_0})=\mathbf{F}+
 
 \begin{frame}{Euler "force" $-m \frac{d \vec{\omega}}{d t} \times \vec{r^{\prime}}$}
   \begin{itemize}
-    \item Need to be considered when $\omega$ is time-variant.
-    \item Also called Tangential inertial forces.
+    \item Need to be considered when $\omega$ is time-variant.\pause
+    \item Also called Tangential inertial forces.\pause
     \item Conventionally, we use $\vec{\beta}$ to denote the angular acceleration $\frac{d \vec{\omega}}{d t}$.
   \end{itemize}
 \end{frame}
