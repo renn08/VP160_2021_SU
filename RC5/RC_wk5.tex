@@ -38,7 +38,7 @@
     \end{equation}
     \begin{center}In general, $\vec{F} = \vec{F}(\vec{r})$ (position-dependent force; vector field)\end{center}
   \end{block}
-  \pause
+  % \pause
   ~\\
   \textcolor{blue}{Methods for Calculation}\\
 \begin{enumerate}
@@ -63,10 +63,11 @@ Find work done by the force $\mathbf{F_1}(x,y) = -x\hat{n_x} -y\hat{n_y}$ and by
   $$
   \frac{\delta W}{dt} = \vec{F}\circ \frac{d\vec{r}}{dt}=\vec{F}\circ \vec{v} = m \dot{\vec{v}}\circ \vec{v}=\frac{d}{dt}(\frac{1}{2}mv^2) 
   $$
-  \pause
+  % \pause
   \begin{itemize}
     \item \textcolor{blue}{Kinetic Energy}:$E_k=\frac{1}{2}mv^2$
-    \item \textcolor{blue}{Work-Kinetic Energy Theorem}: $\delta W = dE_k$\pause
+    \item \textcolor{blue}{Work-Kinetic Energy Theorem}: $\delta W = dE_k$
+    % \pause
     \item \textcolor{blue}{Average Power}:$P_{av}=\frac{W}{\Delta t}$
     \item \textcolor{blue}{Instantaneous power}:$P_{ins} = \frac{\delta W}{dt}=\vec{F}\circ \vec{v}$
   \end{itemize}
@@ -77,9 +78,11 @@ Find work done by the force $\mathbf{F_1}(x,y) = -x\hat{n_x} -y\hat{n_y}$ and by
   \begin{itemize}
     \item Path-Independent.
     \begin{itemize}
-      \item If $\vec{F}$ is conservative $\Rightarrow \Delta W_{AB} = Constant$\pause
+      \item If $\vec{F}$ is conservative $\Rightarrow \Delta W_{AB} = Constant$
+      % \pause
       \item e.g. Gravitational Force, Elastic Force 
-    \end{itemize}\pause
+    \end{itemize}
+    % \pause
     \item How to determine?
     \begin{itemize}
       \item In a simple connected region, $rot\vec{F} = 0$ $$\begin{aligned}
@@ -88,10 +91,12 @@ Find work done by the force $\mathbf{F_1}(x,y) = -x\hat{n_x} -y\hat{n_y}$ and by
         \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
         F_{x} & F_{y} & F_{z}
         \end{array}\right|\\=&  \hat{n}_{x}\left(\frac{\partial F_{z}}{\partial y}-\frac{\partial F_{y}}{\partial z}\right)+\hat{n}_{y}\left(\frac{\partial F_{x}}{\partial z}-\frac{\partial F_{z}}{\partial x}\right)+\hat{n}_{z}\left(\frac{\partial F_{y}}{\partial x}-\frac{\partial F_{x}}{\partial y}\right)=0
-        \end{aligned}$$\pause
+        \end{aligned}$$
+        % \pause
         % $$\Rightarrow \frac{\partial F_{z}}{\partial y}=\frac{\partial F_{y}}{\partial z},\quad \frac{\partial F_{x}}{\partial z}=\frac{\partial F_{z}}{\partial x},\quad \frac{\partial F_{y}}{\partial x}=\frac{\partial F_{x}}{\partial y}$$
         \item Relation with Potential Energy:$$\vec{F}=-\bigtriangledown U=-\frac{\partial U}{\partial x}\hat{n_x}-\frac{\partial U}{\partial y}\hat{n_y}-\frac{\partial U}{\partial z}\hat{n_z}$$
-    \end{itemize}\pause
+    \end{itemize}
+    % \pause
     \item Non-conservative force?
   \end{itemize}
 \end{frame}
@@ -101,7 +106,7 @@ Find work done by the force $\mathbf{F_1}(x,y) = -x\hat{n_x} -y\hat{n_y}$ and by
 
 Consider a 3D force $$ \vec{F}=\left(\begin{array}{c}
   6xyz^2+3y^2\\
-  3x^2y^2+6xy-z\\
+  3x^2z^2+6xy-z\\
   6x^2yz-y
   \end{array}\right)$$
   Is it a conservative force? How to find the corresponding potential energy?
@@ -109,19 +114,23 @@ Consider a 3D force $$ \vec{F}=\left(\begin{array}{c}
 
 \section{Conservation of the Total Energy}
 \begin{frame}
-  The net force may be the sum of a conservative force and a non-conservative force$$\vec{F}=\vec{F}_{con}+\vec{F}_{\text {n-cons}}$$\pause
+  The net force may be the sum of a conservative force and a non-conservative force$$\vec{F}=\vec{F}_{con}+\vec{F}_{\text {n-cons}}$$
+  % \pause
    The work done by the net force (by \textbf{Work-Kinetic Energy Theorem}):
 $$
 \delta W=\vec{F} \circ d \vec{r}=\vec{F}_{con } \circ d \vec{r}+\vec{F}_{\text {n-cons}} \circ d\vec{r} =d K
-$$\pause
+$$
+% \pause
 However, only for conservative force $\vec{F}_{con} \circ d \vec{r}=-d U$. Hence, the elementary work done by the non-conservative force is
 $$
 \delta W_{\text {n-cons}}=\vec{F}_{\text {n-cons}} \circ d \vec{r}=d(K+U)
-$$\pause
+$$
+% \pause
 and the total work done from $A$ to $B$
 $$
 W_{\text {n-cons}}=\int_{\Gamma_{A B}} \vec{F}_{\text {n-cons}} \circ d\vec{r}=E(B)-E(A)=\Delta E = -\Delta U_{int}
-$$\pause
+$$
+% \pause
 and we finally get the \textbf{Law of Conservation of the Total Energy}:
 $$
 \Delta\mathbf{K} + \Delta \mathbf{U} +\Delta \mathbf{U_{int}} = 0
