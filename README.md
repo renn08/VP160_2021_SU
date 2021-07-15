@@ -7,3 +7,4 @@ RC slides and exercise problems will be updated in advance, usually 12 hours bef
 RC notes will be updated on canvas after RC.
 
 Enjoy it!
+
