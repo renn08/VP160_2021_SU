@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{Statics of Rigid Body}{3}{0}{1}
+\beamer@sectionintoc {2}{Elasticity}{27}{0}{2}
