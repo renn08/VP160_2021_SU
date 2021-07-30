@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Lagrangian Mechanics}{3}{0}{1}
+\beamer@sectionintoc {2}{Momentum}{6}{0}{2}
+\beamer@sectionintoc {3}{Equilibrium \& Elasticity}{15}{0}{3}
+\beamer@sectionintoc {4}{Fluid Dynamics}{22}{0}{4}
+\beamer@sectionintoc {5}{Gravitaion}{25}{0}{5}
