@@ -8,7 +8,11 @@ RC notes will be updated on canvas after RC.
 
 Enjoy it!
 
+## Certificate
+
 I was selected as an Advanced Teaching Assistant, see certificate: [20211117140641325.pdf](20211117140641325.pdf).
+
+## Recommendation Letter
 
 I earned a Letter of Recommendation from Prof. Qiang Zhang, see [here](20211117140615507.pdf).
 
