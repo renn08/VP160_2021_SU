@@ -10,5 +10,5 @@ Enjoy it!
 
 I was selected as an Advanced Teaching Assistant, see certificate: [20211117140641325.pdf](20211117140641325.pdf).
 
-I earned an Recommend letter, see [here](20211117140641325.pdf).
+I earned a Letter of Recommendation from Prof. Qiang Zhang, see [here](20211117140615507.pdf).
 
