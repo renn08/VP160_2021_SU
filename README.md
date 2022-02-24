@@ -8,3 +8,7 @@ RC notes will be updated on canvas after RC.
 
 Enjoy it!
 
+I was selected as an Advanced Teaching Assistant.
+
+I earned an Recommend letter.
+
